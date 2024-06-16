@@ -24,6 +24,7 @@ body {
   .name-section h1 {
     color: #333;
     font-size: 50px;
+    font-family:'Courier New', Courier, monospace
   }
   
   .section {
@@ -35,20 +36,19 @@ body {
   .section.education,
   .section.contacts,
   .section.references {
-    color: #8b4513; /* Light brown color */
+    color: #c95a0c; /* Light brown color */
+    font-family:'Courier New', Courier, monospace
   }
   
   .section.about,
   .section.certificates,
   .section.work,
   .section.achievements {
-    color: #654321; /* Darker brown color */
+    color: #723d08; /* Darker brown color */
+    font-family:'Courier New', Courier, monospace
   }
-  
-  .references {
-    align-self: flex-start;
-  }
-  
+
   .achievements {
     width: 100%;
+    align-self: flex-start;
   }
